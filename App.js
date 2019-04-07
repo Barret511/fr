@@ -1,6 +1,9 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { AppRegistry, Text, View } from 'react-native';
 import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
+
+
+import Component2 from './screens/DietScreen';
 
 class ProgressScreen extends React.Component {
   render() {
@@ -15,8 +18,8 @@ class ProgressScreen extends React.Component {
 class DietScreen extends React.Component {
   render() {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>This is the Diet Screen</Text>
+      <View >
+        <Component2 />
       </View>
     );
   }
