@@ -19,7 +19,7 @@ class DietScreen extends React.Component {
   render() {
     return (
       <View >
-        <Component2 />
+        <DietScreen />
       </View>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {AppRegistry, Text, View } from 'react-native';
 
-export default class Component2 extends Component{
+export default class DietScreen extends Component{
   render() {
     return (
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
@@ -11,4 +11,4 @@ export default class Component2 extends Component{
   }
 }
 
-AppRegistry.registerComponent('Component2', () => Component2);
+AppRegistry.registerComponent('DietScreen', () => DietScreen);
