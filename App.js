@@ -36,7 +36,7 @@ class WorkoutScreen extends React.Component {
   render() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>This is the Workout Screen</Text>
+        <Text>This is the Workcreen</Text>
       </View>
     );
   }
