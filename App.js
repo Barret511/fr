@@ -46,7 +46,7 @@ class ProfileScreen extends React.Component {
   render() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>This is the Profile Screen Work harder on this app you slut</Text>
+        <Text>This is the Profile Screen Were finally working on it you slut</Text>
       </View>
     );
   }
