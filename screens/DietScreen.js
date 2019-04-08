@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import {AppRegistry, Text, View } from 'react-native';
 
-export default class Component2 extends Component{
+export default class Dietscreen extends Component{
   render() {
     return (
-      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <View>
         <Text>This is the Diet Screen</Text>
       </View>
     );
   }
 }
 
-AppRegistry.registerComponent('Component2', () => Component2);
+AppRegistry.registerComponent('Dietscreen', () => Dietscreen);
+
+// Make sure this class is different from the class in app.js 
+// what i did was used Dietscreen 
