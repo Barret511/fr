@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import {AppRegistry, Text, View } from 'react-native';
 
-export default class WorkoutScreen extends React.Component {
+export default class Workoutscreen extends Component{
   render() {
     return (
-      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <Text>This is the Workout Screen</Text>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text>This is the workout Screen</Text>
       </View>
     );
   }
 }
+
+AppRegistry.registerComponent('Workoutscreen', () => Workoutscreen);

@@ -4,7 +4,7 @@ import {AppRegistry, Text, View } from 'react-native';
 export default class Dietscreen extends Component{
   render() {
     return (
-      <View>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Text>This is the Diet Screen</Text>
       </View>
     );
