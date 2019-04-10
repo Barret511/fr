@@ -11,4 +11,5 @@ export default class Profilescreen extends Component{
   }
 }
 
-AppRegistry.registerComponent('Profilescreen', () => Profilescreen);
+//AppRegistry.registerComponent('Profilescreen', () => Profilescreen);
+export default Profilescreen;

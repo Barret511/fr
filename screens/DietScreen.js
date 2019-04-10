@@ -10,8 +10,8 @@ export default class Dietscreen extends Component{
     );
   }
 }
-
-AppRegistry.registerComponent('Dietscreen', () => Dietscreen);
+export default Dietscreen;
+//AppRegistry.registerComponent('Dietscreen', () => Dietscreen);
 
 // Make sure this class is different from the class in app.js 
 // what i did was used Dietscreen 

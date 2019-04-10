@@ -1,5 +1,5 @@
 import React from 'react';
-import {AppRegistry, StyleSheet, Text, View, SafeAreaView} from 'react-native';
+import {AppRegistry, StyleSheet, Text, View, Image,  SafeAreaView} from 'react-native';
 import { createBottomTabNavigator} from 'react-navigation'
 //import Icon from 'react-native-vector-icons/Ionicons'
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
@@ -24,10 +24,11 @@ navigationOptions:{
     
   )
 }
+
 },
 Diet: {
 screen: Dietscreen,
-navigationOptions:{
+navigationOptions: {
   tabBarLabel:'Diet',
   tabBarIcon: ({tintColor}) => (
    // <Icon name="ios-play" color = {tintColor} size={24} />
@@ -37,7 +38,7 @@ navigationOptions:{
 },
 Home: {
     screen: Homescreen,
-    navigationOptions:{
+    navigationOptions: {
       tabBarLabel:'Home',
       tabBarIcon: ({tintColor}) => (
        // <Icon name="ios-play" color = {tintColor} size={24} />
@@ -47,7 +48,7 @@ Home: {
 },
 Workout: {
     screen: Workoutscreen,
-    navigationOptions:{
+    navigationOptions: {
       tabBarLabel:'Workout',
       tabBarIcon: ({tintColor}) => (
        // <Icon name="ios-play" color = {tintColor} size={24} />
@@ -57,14 +58,15 @@ Workout: {
 },
 Profile: {
     screen: Profilescreen,
-    navigationOptions:{
+    navigationOptions: {
       tabBarLabel:'Profile',
       tabBarIcon: ({tintColor}) => (
        // <Icon name="ios-play" color = {tintColor} size={24} />
         <MaterialCommunityIcons name="account-circle" size ={24} color={tintColor}/>
       )
     }
-}/*,{
+  }
+}, {
   tabBarOptions: {
     activeTintColor: 'blue',
     inactiveTintColor: 'grey',
@@ -77,5 +79,5 @@ Profile: {
       elevation: 5
     }
    }
-  } */
+
 })

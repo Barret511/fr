@@ -10,5 +10,5 @@ export default class Workoutscreen extends Component{
     );
   }
 }
-
-AppRegistry.registerComponent('Workoutscreen', () => Workoutscreen);
+export default Workoutscreen;
+//AppRegistry.registerComponent('Workoutscreen', () => Workoutscreen);

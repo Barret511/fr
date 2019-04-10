@@ -11,4 +11,5 @@ export default class Progressscreen extends Component{
   }
 }
 
-AppRegistry.registerComponent('Progressscreen', () => Progressscreen);
+//AppRegistry.registerComponent('Progressscreen', () => Progressscreen);
+export default Progressscreen;
