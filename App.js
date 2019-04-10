@@ -1,14 +1,14 @@
 import React from 'react';
 import {AppRegistry, StyleSheet, Text, View, SafeAreaView} from 'react-native';
-import { createBottomTabNavigator} from 'react-navigation';
+import { createBottomTabNavigator} from 'react-navigation'
 //import Icon from 'react-native-vector-icons/Ionicons'
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
-import Progressscreen from './screens/DietScreen'; 
-import Dietscreen from './screens/DietScreen'; 
-import Homescreen from './screens/HomeScreen'; 
-import Workoutscreen from './screens/DietScreen'; 
-import Profilescreen from './screens/DietScreen'; 
+import Progressscreen from './screens/DietScreen' 
+import Dietscreen from './screens/DietScreen' 
+import Homescreen from './screens/HomeScreen'
+import Workoutscreen from './screens/DietScreen' 
+import Profilescreen from './screens/DietScreen' 
 
 
 
@@ -64,7 +64,7 @@ Profile: {
         <MaterialCommunityIcons name="account-circle" size ={24} color={tintColor}/>
       )
     }
-}, {
+}/*,{
   tabBarOptions: {
     activeTintColor: 'blue',
     inactiveTintColor: 'grey',
@@ -77,5 +77,5 @@ Profile: {
       elevation: 5
     }
    }
-  }
+  } */
 })
