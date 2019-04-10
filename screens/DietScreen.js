@@ -4,14 +4,14 @@ import {AppRegistry, Text, View } from 'react-native';
 export default class Dietscreen extends Component{
   render() {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View>
         <Text>This is the Diet Screen</Text>
       </View>
     );
   }
 }
-export default Dietscreen;
-//AppRegistry.registerComponent('Dietscreen', () => Dietscreen);
+
+AppRegistry.registerComponent('Dietscreen', () => Dietscreen);
 
 // Make sure this class is different from the class in app.js 
 // what i did was used Dietscreen 
