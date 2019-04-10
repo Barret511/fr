@@ -1,6 +1,5 @@
 import React from 'react';
-import {AppRegistry, StyleSheet, Text, View} from 'react-native';
-
+import {AppRegistry, StyleSheet, Text, View, SafeAreaView} from 'react-native';
 import { createBottomTabNavigator} from 'react-navigation';
 //import Icon from 'react-native-vector-icons/Ionicons'
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
@@ -15,7 +14,6 @@ import Profilescreen from './screens/DietScreen';
 
 
 export default createBottomTabNavigator({
-
 Progress:{
 screen: Progressscreen, 
 navigationOptions:{
@@ -78,7 +76,6 @@ Profile: {
       shadowOpacity: 0.5,
       elevation: 5
     }
+   }
   }
-}
-
 })
